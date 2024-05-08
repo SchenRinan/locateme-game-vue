@@ -1,5 +1,5 @@
 # locateme-game-vue
-test
+test s
 
 ## Project setup
 ```
