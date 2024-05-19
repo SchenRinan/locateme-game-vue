@@ -1,57 +1,70 @@
 <template>
   <div id="map"></div>
+  <div></div>
 </template>
 
 <script lang="ts">
 import { defineComponent, onMounted } from "vue";
 import L from "leaflet";
+import locations from "@/assets/locations.json"; // Import your locations JSON data
 
 export default defineComponent({
   name: "MapComponent",
   setup() {
     onMounted(() => {
-      const isMobile = window.innerWidth < 768; // Check if the screen width is less than 768px (common threshold for mobile devices)
-
-      // Determine the initial zoom level based on the device
+      const isMobile = window.innerWidth < 768;
       const initialZoom = isMobile ? 1 : 3;
 
-      // Center the map at the center of the Earth
-      const initialCoordinates: L.LatLngExpression = [30, 0]; // Prime meridian (0 degrees longitude) and equator (0 degrees latitude)
+      const currentDate = new Date();
+      const dayOfYear = getDayOfYear(currentDate);
+
+      // Calculate the index based on the current date
+      const index = dayOfYear % locations.length;
+      const initialCoordinates: L.LatLngExpression = [
+        locations[index].coordinates.latitude,
+        locations[index].coordinates.longitude
+      ];
+      console.log(dayOfYear)
 
       const map = L.map("map").setView(initialCoordinates, initialZoom);
 
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
         attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          'Tiles &copy; Esri',
       }).addTo(map);
 
-      // Add a circle with initial style
-      const circle = L.circle([48.858093, 2.294694], { // Center the circle at the center of the Earth
+      const circle = L.circle(initialCoordinates, {
         color: "red",
         fillColor: "blue",
         fillOpacity: 0,
-        radius: 100,
-        stroke: false, // Initially no stroke
+        radius: 250,
+        stroke: false,
       }).addTo(map);
 
-      // Adjust circle style on zoom change
-      map.on('zoomend', () => {
+      map.on("zoomend", () => {
         const zoomLevel = map.getZoom();
 
-        // Adjust circle visibility based on zoom level
-        if (zoomLevel < 13) {
-          circle.setStyle({ fillOpacity: 0 }); // Hide circle when zoomed out
+        if (zoomLevel < 10) {
+          circle.setStyle({ fillOpacity: 0 });
         } else {
-          circle.setStyle({ fillOpacity: 0.5 }); // Show circle with original opacity when zoomed in
+          circle.setStyle({ fillOpacity: 0.5 });
         }
       });
     });
   },
 });
+
+// Function to get the day of the year
+function getDayOfYear(date: Date): number {
+  const start = new Date(date.getFullYear(), 0, 0);
+  const diff = date.getTime() - start.getTime();
+  const oneDay = 1000 * 60 * 60 * 24;
+  return Math.floor(diff / oneDay);
+}
 </script>
 
 <style scoped>
 #map {
-  height: 400px; /* Adjust the height as needed */
+  height: 400px;
 }
 </style>

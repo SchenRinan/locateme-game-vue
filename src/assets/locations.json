@@ -1,0 +1,1151 @@
+[
+  {
+    "id": 1,
+    "name": "Eiffel Tower",
+    "description": "An iconic landmark in Paris, France.",
+    "coordinates": {
+      "latitude": 48.858093,
+      "longitude": 2.294694
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+  },
+  {
+    "id": 2,
+    "name": "Statue of Liberty",
+    "description": "A symbol of freedom in New York City, USA.",
+    "coordinates": {
+      "latitude": 40.689247,
+      "longitude": -74.044502
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+  },
+  {
+    "id": 3,
+    "name": "Great Wall of China",
+    "description": "A historic wall in northern China.",
+    "coordinates": {
+      "latitude": 40.431908,
+      "longitude": 116.570374
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+  },
+  {
+    "id": 4,
+    "name": "Sydney Opera House",
+    "description": "A famous performing arts center in Sydney, Australia.",
+    "coordinates": {
+      "latitude": -33.856784,
+      "longitude": 151.215297
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+  },
+  {
+    "id": 5,
+    "name": "Machu Picchu",
+    "description": "An ancient Incan city in the Andes Mountains of Peru.",
+    "coordinates": {
+      "latitude": -13.163141,
+      "longitude": -72.544963
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Machu_Picchu"
+  },
+  {
+    "id": 6,
+    "name": "Christ the Redeemer",
+    "description": "A large statue of Jesus Christ in Rio de Janeiro, Brazil.",
+    "coordinates": {
+      "latitude": -22.951916,
+      "longitude": -43.210487
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+  },
+  {
+    "id": 7,
+    "name": "Colosseum",
+    "description": "An ancient amphitheater in Rome, Italy.",
+    "coordinates": {
+      "latitude": 41.890251,
+      "longitude": 12.492373
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Colosseum"
+  },
+  {
+    "id": 8,
+    "name": "Taj Mahal",
+    "description": "A white marble mausoleum in Agra, India.",
+    "coordinates": {
+      "latitude": 27.175015,
+      "longitude": 78.042155
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Taj_Mahal"
+  },
+  {
+    "id": 9,
+    "name": "Pyramids of Giza",
+    "description": "Ancient pyramids located near Cairo, Egypt.",
+    "coordinates": {
+      "latitude": 29.979235,
+      "longitude": 31.134202
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+  },
+  {
+    "id": 10,
+    "name": "Mount Everest",
+    "description": "The highest mountain in the world, located in the Himalayas.",
+    "coordinates": {
+      "latitude": 27.988056,
+      "longitude": 86.925278
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_Everest"
+  },
+  {
+    "id": 11,
+    "name": "Niagara Falls",
+    "description": "A group of three waterfalls at the border of Ontario, Canada, and New York, USA.",
+    "coordinates": {
+      "latitude": 43.096214,
+      "longitude": -79.037739
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Niagara_Falls"
+  },
+  {
+    "id": 12,
+    "name": "Burj Khalifa",
+    "description": "The tallest building in the world, located in Dubai, UAE.",
+    "coordinates": {
+      "latitude": 25.197197,
+      "longitude": 55.274376
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+  },
+  {
+    "id": 13,
+    "name": "Big Ben",
+    "description": "The nickname for the Great Bell of the clock at the Palace of Westminster in London.",
+    "coordinates": {
+      "latitude": 51.500729,
+      "longitude": -0.124625
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Big_Ben"
+  },
+  {
+    "id": 14,
+    "name": "The Louvre",
+    "description": "The world's largest art museum and a historic monument in Paris, France.",
+    "coordinates": {
+      "latitude": 48.860611,
+      "longitude": 2.337644
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Louvre"
+  },
+  {
+    "id": 15,
+    "name": "Central Park",
+    "description": "An urban park in New York City, USA.",
+    "coordinates": {
+      "latitude": 40.785091,
+      "longitude": -73.968285
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Central_Park"
+  },
+  {
+    "id": 16,
+    "name": "Golden Gate Bridge",
+    "description": "A suspension bridge spanning the Golden Gate strait in San Francisco, USA.",
+    "coordinates": {
+      "latitude": 37.819929,
+      "longitude": -122.478255
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+  },
+  {
+    "id": 17,
+    "name": "Mount Fuji",
+    "description": "An active stratovolcano and the highest peak in Japan.",
+    "coordinates": {
+      "latitude": 35.360638,
+      "longitude": 138.727363
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_Fuji"
+  },
+  {
+    "id": 18,
+    "name": "Times Square",
+    "description": "A major commercial intersection and tourist destination in New York City, USA.",
+    "coordinates": {
+      "latitude": 40.758896,
+      "longitude": -73.985130
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Times_Square"
+  },
+  {
+    "id": 19,
+    "name": "Santorini",
+    "description": "A picturesque island in the Aegean Sea, known for its white-washed buildings and blue domes.",
+    "coordinates": {
+      "latitude": 36.393156,
+      "longitude": 25.461509
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Santorini"
+  },
+  {
+    "id": 20,
+    "name": "Acropolis of Athens",
+    "description": "An ancient citadel located on a rocky outcrop above the city of Athens, Greece.",
+    "coordinates": {
+      "latitude": 37.971532,
+      "longitude": 23.726703
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Acropolis_of_Athens"
+  },
+  {
+    "id": 21,
+    "name": "Museum of Modern Art",
+    "description": "An art museum located in Midtown Manhattan, New York City, USA.",
+    "coordinates": {
+      "latitude": 40.761437,
+      "longitude": -73.977621
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art"
+  },
+  {
+    "id": 22,
+    "name": "The Great Sphinx of Giza",
+    "description": "A mythical creature with the body of a lion and the head of a human, located at the Giza pyramid complex in Egypt.",
+    "coordinates": {
+      "latitude": 29.975339,
+      "longitude": 31.137647
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza"
+  },
+  {
+    "id": 23,
+    "name": "The Shard",
+    "description": "A skyscraper in London, UK, standing at 309.6 meters (1,016 feet) tall.",
+    "coordinates": {
+      "latitude": 51.504479,
+      "longitude": -0.086497
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/The_Shard"
+  },
+  {
+    "id": 24,
+    "name": "Angkor Wat",
+    "description": "A temple complex in Cambodia and the largest religious monument in the world.",
+    "coordinates": {
+      "latitude": 13.412469,
+      "longitude": 103.866986
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Angkor_Wat"
+  },
+  {
+    "id": 25,
+    "name": "Golden Pavilion",
+    "description": "A Zen Buddhist temple in Kyoto, Japan, known for its stunning architecture and setting.",
+    "coordinates": {
+      "latitude": 35.039482,
+      "longitude": 135.728664
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Kinkaku-ji"
+  },
+  {
+    "id": 26,
+    "name": "Mount Rushmore National Memorial",
+    "description": "A sculpture carved into the granite face of Mount Rushmore in South Dakota, USA.",
+    "coordinates": {
+      "latitude": 43.879102,
+      "longitude": -103.459067
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_Rushmore"
+  },
+  {
+    "id": 27,
+    "name": "Neuschwanstein Castle",
+    "description": "A 19th-century Romanesque Revival palace in Bavaria, Germany.",
+    "coordinates": {
+      "latitude": 47.557548,
+      "longitude": 10.749800
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+  },
+  {
+    "id": 28,
+    "name": "Petra",
+    "description": "A historical and archaeological city in southern Jordan, famous for its rock-cut architecture and water conduit system.",
+    "coordinates": {
+      "latitude": 30.328611,
+      "longitude": 35.442478
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Petra"
+  },
+  {
+    "id": 29,
+    "name": "Grand Canyon National Park",
+    "description": "A vast canyon carved by the Colorado River in Arizona, USA.",
+    "coordinates": {
+      "latitude": 36.106974,
+      "longitude": -112.112997
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Grand_Canyon"
+  },
+  {
+    "id": 30,
+    "name": "St. Basil's Cathedral",
+    "description": "An iconic Orthodox church located on Red Square in Moscow, Russia.",
+    "coordinates": {
+      "latitude": 55.752523,
+      "longitude": 37.623087
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral"
+  },
+  {
+    "id": 31,
+    "name": "Stonehenge",
+    "description": "A prehistoric monument in Wiltshire, England, consisting of a ring of standing stones.",
+    "coordinates": {
+      "latitude": 51.178882,
+      "longitude": -1.826215
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Stonehenge"
+  },
+  {
+    "id": 32,
+    "name": "Mount Vesuvius",
+    "description": "A stratovolcano located in the Gulf of Naples, Italy, known for its eruption in AD 79 that destroyed the Roman cities of Pompeii and Herculaneum.",
+    "coordinates": {
+      "latitude": 40.821146,
+      "longitude": 14.426589
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_Vesuvius"
+  },
+  {
+    "id": 33,
+    "name": "Chichen Itza",
+    "description": "An ancient Mayan city located in the Yucatan Peninsula of Mexico, known for its iconic stepped pyramid.",
+    "coordinates": {
+      "latitude": 20.683067,
+      "longitude": -88.567264
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Chichen_Itza"
+  },
+  {
+    "id": 34,
+    "name": "Mount Kilimanjaro",
+    "description": "The highest mountain in Africa, located in Tanzania.",
+    "coordinates": {
+      "latitude": -3.067425,
+      "longitude": 37.355627
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro"
+  },
+  {
+    "id": 35,
+    "name": "The Forbidden City",
+    "description": "A palace complex in Beijing, China, that served as the imperial palace for several Chinese dynasties.",
+    "coordinates": {
+      "latitude": 39.916345,
+      "longitude": 116.397155
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Forbidden_City"
+  },
+  {
+    "id": 36,
+    "name": "Mont Saint-Michel",
+    "description": "An island commune in Normandy, France, known for its medieval architecture and abbey.",
+    "coordinates": {
+      "latitude": 48.636186,
+      "longitude": -1.511145
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mont_Saint-Michel"
+  },
+  {
+    "id": 37,
+    "name": "Borobudur",
+    "description": "A 9th-century Mahayana Buddhist temple in Magelang, Central Java, Indonesia.",
+    "coordinates": {
+      "latitude": -7.607874,
+      "longitude": 110.203751
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Borobudur"
+  },
+  {
+    "id": 38,
+    "name": "The Alhambra",
+    "description": "A palace and fortress complex in Granada, Spain, known for its stunning Moorish architecture.",
+    "coordinates": {
+      "latitude": 37.176087,
+      "longitude": -3.588513
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Alhambra"
+  },
+  {
+    "id": 39,
+    "name": "Uluru (Ayers Rock)",
+    "description": "A large sandstone rock formation in the Northern Territory of Australia, sacred to the indigenous Anangu people.",
+    "coordinates": {
+      "latitude": -25.344204,
+      "longitude": 131.036795
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Uluru"
+  },
+  {
+    "id": 40,
+    "name": "The Acropolis Museum",
+    "description": "An archaeological museum focused on the findings of the Acropolis of Athens, Greece.",
+    "coordinates": {
+      "latitude": 37.968592,
+      "longitude": 23.726803
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Acropolis_Museum"
+  },
+  {
+    "id": 41,
+    "name": "The Vatican City",
+    "description": "An independent city-state enclaved within Rome, Italy, and the headquarters of the Roman Catholic Church.",
+    "coordinates": {
+      "latitude": 41.902976,
+      "longitude": 12.453520
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Vatican_City"
+  },
+  {
+    "id": 42,
+    "name": "The White House",
+    "description": "The official residence and workplace of the President of the United States, located in Washington, D.C.",
+    "coordinates": {
+      "latitude": 38.897675,
+      "longitude": -77.036547
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/White_House"
+  },
+  {
+    "id": 43,
+    "name": "Great Barrier Reef",
+    "description": "The world's largest coral reef system, located off the coast of Queensland, Australia.",
+    "coordinates": {
+      "latitude": -18.286840,
+      "longitude": 147.699161
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Great_Barrier_Reef"
+  },
+  {
+    "id": 44,
+    "name": "Mount Everest Base Camp",
+    "description": "The starting point for climbers attempting to summit Mount Everest, located in the Himalayas.",
+    "coordinates": {
+      "latitude": 28.002361,
+      "longitude": 86.852883
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_Everest_Base_Camp"
+  },
+  {
+    "id": 45,
+    "name": "Sagrada Familia",
+    "description": "A large unfinished Roman Catholic basilica in Barcelona, Spain, designed by architect Antoni Gaudí.",
+    "coordinates": {
+      "latitude": 41.404578,
+      "longitude": 2.174417
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+  },
+  {
+    "id": 46,
+    "name": "Venice Canals",
+    "description": "A network of canals in the city of Venice, Italy, known for its beauty and gondola rides.",
+    "coordinates": {
+      "latitude": 45.437827,
+      "longitude": 12.335251
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Grand_Canal_(Venice)"
+  },
+  {
+    "id": 47,
+    "name": "Mount Cook",
+    "description": "The highest mountain in New Zealand, located in the Southern Alps.",
+    "coordinates": {
+      "latitude": -43.595312,
+      "longitude": 170.141678
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_Cook"
+  },
+  {
+    "id": 48,
+    "name": "Cappadocia",
+    "description": "A historical region in central Anatolia, Turkey, known for its unique rock formations and hot air balloon rides.",
+    "coordinates": {
+      "latitude": 38.643064,
+      "longitude": 34.830004
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Cappadocia"
+  },
+  {
+    "id": 49,
+    "name": "The Panama Canal",
+    "description": "A man-made waterway connecting the Atlantic Ocean to the Pacific Ocean, traversing the Isthmus of Panama.",
+    "coordinates": {
+      "latitude": 9.076478,
+      "longitude": -79.651964
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Panama_Canal"
+  },
+  {
+    "id": 50,
+    "name": "The Grand Bazaar",
+    "description": "One of the oldest and largest covered markets in the world, located in Istanbul, Turkey.",
+    "coordinates": {
+      "latitude": 41.008257,
+      "longitude": 28.978372
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Grand_Bazaar,_Istanbul"
+  },
+  {
+    "id": 51,
+    "name": "Mount Fuji Five Lakes",
+    "description": "A region surrounding Mount Fuji in Japan, known for its scenic beauty and recreational activities.",
+    "coordinates": {
+      "latitude": 35.355692,
+      "longitude": 138.750983
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Fuji_Five_Lakes"
+  },
+  {
+    "id": 52,
+    "name": "Table Mountain",
+    "description": "A flat-topped mountain overlooking the city of Cape Town, South Africa.",
+    "coordinates": {
+      "latitude": -33.962822,
+      "longitude": 18.404469
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Table_Mountain"
+  },
+  {
+    "id": 53,
+    "name": "Mesa Verde National Park",
+    "description": "A national park in Colorado, USA, known for its well-preserved Ancestral Puebloan cliff dwellings.",
+    "coordinates": {
+      "latitude": 37.230873,
+      "longitude": -108.461834
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mesa_Verde_National_Park"
+  },
+  {
+    "id": 54,
+    "name": "The Moai of Easter Island",
+    "description": "A collection of giant stone statues located on Easter Island in the southeastern Pacific Ocean.",
+    "coordinates": {
+      "latitude": -27.120720,
+      "longitude": -109.349686
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Moai"
+  },
+  {
+    "id": 55,
+    "name": "Mount St. Helens",
+    "description": "An active stratovolcano located in Washington state, USA, known for its devastating eruption in 1980.",
+    "coordinates": {
+      "latitude": 46.191101,
+      "longitude": -122.194842
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mount_St._Helens"
+  },
+  {
+    "id": 56,
+    "name": "Monte Carlo Casino",
+    "description": "A gambling and entertainment complex located in Monte Carlo, Monaco.",
+    "coordinates": {
+      "latitude": 43.7396,
+      "longitude": 7.4270
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Monte_Carlo_Casino"
+  },
+  {
+    "id": 57,
+    "name": "The Colosseum",
+    "description": "An ancient amphitheater in Rome, Italy, known for its gladiatorial contests and public spectacles.",
+    "coordinates": {
+      "latitude": 41.8902,
+      "longitude": 12.4922
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Colosseum"
+  },
+  {
+    "id": 58,
+    "name": "Niagara Falls",
+    "description": "A group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the United States and Canada.",
+    "coordinates": {
+      "latitude": 43.0812,
+      "longitude": -79.0742
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Niagara_Falls"
+  },
+  {
+    "id": 59,
+    "name": "Machu Picchu",
+    "description": "An Incan citadel set high in the Andes Mountains in Peru, renowned for its well-preserved archaeological ruins.",
+    "coordinates": {
+      "latitude": -13.1631,
+      "longitude": -72.5450
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Machu_Picchu"
+  },
+  {
+    "id": 60,
+    "name": "Christ the Redeemer",
+    "description": "A large statue of Jesus Christ in Rio de Janeiro, Brazil, overlooking the city from the summit of Mount Corcovado.",
+    "coordinates": {
+      "latitude": -22.9519,
+      "longitude": -43.2105
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+  },{
+    "id": 61,
+    "name": "Champs-Élysées",
+    "description": "One of the most famous avenues in the world, located in Paris, France. Known for its theaters, cafes, and luxury shops.",
+    "coordinates": {
+      "latitude": 48.8696,
+      "longitude": 2.3074
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Champs-%C3%89lys%C3%A9es"
+  },
+  {
+    "id": 62,
+    "name": "Fifth Avenue",
+    "description": "A major thoroughfare in Manhattan, New York City, USA. Renowned for its upscale shops, museums, and landmarks.",
+    "coordinates": {
+      "latitude": 40.7580,
+      "longitude": -73.9720
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Fifth_Avenue"
+  },
+  {
+    "id": 63,
+    "name": "Las Ramblas",
+    "description": "A bustling street in Barcelona, Spain, lined with cafes, shops, street performers, and the famous La Boqueria market.",
+    "coordinates": {
+      "latitude": 41.3818,
+      "longitude": 2.1734
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/La_Rambla,_Barcelona"
+  },
+  {
+    "id": 64,
+    "name": "Abbey Road",
+    "description": "Famous for the Abbey Road Studios and the iconic Beatles album cover, located in London, UK. A pilgrimage site for music fans.",
+    "coordinates": {
+      "latitude": 51.5326,
+      "longitude": -0.1779
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Abbey_Road"
+  },
+  {
+    "id": 65,
+    "name": "Rodeo Drive",
+    "description": "A luxury shopping street in Beverly Hills, California, USA. Known for its high-end fashion boutiques and celebrity sightings.",
+    "coordinates": {
+      "latitude": 34.0689,
+      "longitude": -118.4019
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Rodeo_Drive"
+  },
+  {
+    "id": 66,
+    "name": "Ginza",
+    "description": "Tokyo's most famous upmarket shopping, dining, and entertainment district, located in Tokyo, Japan. Featuring luxury boutiques and department stores.",
+    "coordinates": {
+      "latitude": 35.6712,
+      "longitude": 139.7703
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Ginza"
+  },
+  {
+    "id": 67,
+    "name": "Via Veneto",
+    "description": "A street in Rome, Italy, known for its high-end shops, luxury hotels, and cafes. Immortalized in Federico Fellini's film 'La Dolce Vita'.",
+    "coordinates": {
+      "latitude": 41.9062,
+      "longitude": 12.4890
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Via_Veneto"
+  },
+  {
+    "id": 68,
+    "name": "The Strip",
+    "description": "A stretch of Las Vegas Boulevard in Las Vegas, Nevada, USA. Known for its concentration of resort hotels, casinos, and entertainment venues.",
+    "coordinates": {
+      "latitude": 36.1147,
+      "longitude": -115.1728
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Las_Vegas_Strip"
+  },
+  {
+    "id": 69,
+    "name": "Orchard Road",
+    "description": "Singapore's premier shopping street. Lined with malls, department stores, and restaurants.",
+    "coordinates": {
+      "latitude": 1.3039,
+      "longitude": 103.8318
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Orchard_Road"
+  },
+  {
+    "id": 70,
+    "name": "Nanjing Road",
+    "description": "One of the world's busiest shopping streets, located in Shanghai, China. Offers a mix of luxury boutiques, department stores, and traditional Chinese shops.",
+    "coordinates": {
+      "latitude": 31.2340,
+      "longitude": 121.4747
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Nanjing_Road"
+  },
+  {
+    "id": 71,
+    "name": "Harvard University",
+    "description": "A private Ivy League research university in Cambridge, Massachusetts, USA. Renowned for its academic excellence and notable alumni.",
+    "coordinates": {
+      "latitude": 42.3744,
+      "longitude": -71.1169
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Harvard_University"
+  },
+  {
+    "id": 72,
+    "name": "University of Oxford",
+    "description": "A collegiate research university in Oxford, England. One of the oldest and most prestigious universities in the world.",
+    "coordinates": {
+      "latitude": 51.7547,
+      "longitude": -1.2544
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/University_of_Oxford"
+  },
+  {
+    "id": 73,
+    "name": "University of Cambridge",
+    "description": "A collegiate research university in Cambridge, England. Renowned for its academic excellence and beautiful historic buildings.",
+    "coordinates": {
+      "latitude": 52.2033,
+      "longitude": 0.1236
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/University_of_Cambridge"
+  },
+  {
+    "id": 74,
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "description": "A private research university in Cambridge, Massachusetts, USA. Known for its strong emphasis on science, engineering, and technology.",
+    "coordinates": {
+      "latitude": 42.3601,
+      "longitude": -71.0921
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology"
+  },
+  {
+    "id": 75,
+    "name": "Stanford University",
+    "description": "A private research university in Stanford, California, USA. Renowned for its academic programs, entrepreneurship, and innovation.",
+    "coordinates": {
+      "latitude": 37.4275,
+      "longitude": -122.1697
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Stanford_University"
+  },
+  {
+    "id": 76,
+    "name": "California Institute of Technology (Caltech)",
+    "description": "A private research university in Pasadena, California, USA. Known for its strength in science and engineering.",
+    "coordinates": {
+      "latitude": 34.1377,
+      "longitude": -118.1253
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/California_Institute_of_Technology"
+  },
+  {
+    "id": 77,
+    "name": "University of Chicago",
+    "description": "A private research university in Chicago, Illinois, USA. Known for its rigorous academics, research contributions, and strong intellectual culture.",
+    "coordinates": {
+      "latitude": 41.7880,
+      "longitude": -87.6012
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/University_of_Chicago"
+  },
+  {
+    "id": 78,
+    "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+    "description": "A science, technology, engineering, and mathematics university in Zurich, Switzerland. Renowned for its academic excellence and research contributions.",
+    "coordinates": {
+      "latitude": 47.3769,
+      "longitude": 8.5417
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/ETH_Zurich"
+  },
+  {
+    "id": 79,
+    "name": "University College London (UCL)",
+    "description": "A public research university in London, England. Known for its multidisciplinary approach to research and education.",
+    "coordinates": {
+      "latitude": 51.5246,
+      "longitude": -0.1340
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/University_College_London"
+  },
+  {
+    "id": 80,
+    "name": "University of Tokyo",
+    "description": "A public research university in Bunkyo, Tokyo, Japan. One of Japan's most prestigious universities.",
+    "coordinates": {
+      "latitude": 35.7128,
+      "longitude": 139.7625
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/University_of_Tokyo"
+  },
+  {
+    "id": 81,
+    "name": "Golden Gate Bridge",
+    "description": "A suspension bridge spanning the Golden Gate strait, connecting San Francisco to Marin County, California, USA.",
+    "coordinates": {
+      "latitude": 37.8199,
+      "longitude": -122.4783
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+  },
+  {
+    "id": 82,
+    "name": "Brooklyn Bridge",
+    "description": "A hybrid cable-stayed/suspension bridge spanning the East River, connecting Manhattan to Brooklyn, New York City, USA.",
+    "coordinates": {
+      "latitude": 40.7061,
+      "longitude": -73.9969
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Brooklyn_Bridge"
+  },
+  {
+    "id": 83,
+    "name": "Tower Bridge",
+    "description": "A combined bascule and suspension bridge over the River Thames, located in London, England. One of London's most iconic landmarks.",
+    "coordinates": {
+      "latitude": 51.5055,
+      "longitude": -0.0754
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Tower_Bridge"
+  },
+  {
+    "id": 84,
+    "name": "Sydney Harbour Bridge",
+    "description": "A steel through arch bridge across Sydney Harbour, connecting the Sydney central business district (CBD) with the North Shore, Sydney, Australia.",
+    "coordinates": {
+      "latitude": -33.8523,
+      "longitude": 151.2108
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"
+  },
+  {
+    "id": 85,
+    "name": "Millau Viaduct",
+    "description": "A cable-stayed bridge that spans the Tarn Valley near Millau in southern France. The tallest bridge in the world, it is an iconic feat of engineering.",
+    "coordinates": {
+      "latitude": 44.0775,
+      "longitude": 3.0226
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+  },
+  {
+    "id": 86,
+    "name": "Akashi Kaikyō Bridge",
+    "description": "A suspension bridge that links the city of Kobe on the Japanese mainland of Honshu to Iwaya on Awaji Island, spanning the Akashi Strait.",
+    "coordinates": {
+      "latitude": 34.5977,
+      "longitude": 135.0373
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Akashi_Kaiky%C5%8D_Bridge"
+  },
+  {
+    "id": 87,
+    "name": "Forth Bridge",
+    "description": "A cantilever railway bridge across the Firth of Forth in the east of Scotland, near Edinburgh City Centre. A UNESCO World Heritage Site.",
+    "coordinates": {
+      "latitude": 56.0072,
+      "longitude": -3.3950
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Forth_Bridge"
+  },
+  {
+    "id": 88,
+    "name": "Rialto Bridge",
+    "description": "A stone arch bridge spanning the Grand Canal in Venice, Italy. One of the four bridges spanning the canal, it is an iconic symbol of Venice.",
+    "coordinates": {
+      "latitude": 45.4387,
+      "longitude": 12.3352
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Rialto_Bridge"
+  },
+  {
+    "id": 89,
+    "name": "The Helix Bridge",
+    "description": "A pedestrian bridge across the Singapore River, linking Marina Centre with Marina South in the Marina Bay area in Singapore.",
+    "coordinates": {
+      "latitude": 1.2876,
+      "longitude": 103.8607
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Helix_Bridge"
+  },
+  {
+    "id": 90,
+    "name": "Chengyang Wind and Rain Bridge",
+    "description": "A covered bridge in Sanjiang County, China, known for its unique blend of bridge and pavilion architecture, as well as its cultural significance.",
+    "coordinates": {
+      "latitude": 25.8078,
+      "longitude": 108.3525
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Chengyang_Wind_and_Rain_Bridge"
+  },
+  {
+    "id": 91,
+    "name": "Great Barrier Reef",
+    "description": "The world's largest coral reef system, located in the Coral Sea off the coast of Queensland, Australia. It is home to a diverse range of marine life and is a UNESCO World Heritage Site.",
+    "coordinates": {
+      "latitude": -18.2871,
+      "longitude": 147.6992
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Great_Barrier_Reef"
+  },
+  {
+    "id": 92,
+    "name": "Belize Barrier Reef",
+    "description": "A series of coral reefs straddling the coast of Belize, stretching from the northern tip of the Yucatán Peninsula down to Honduras. It is the second-largest coral reef system in the world and is a UNESCO World Heritage Site.",
+    "coordinates": {
+      "latitude": 17.1899,
+      "longitude": -87.8690
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Belize_Barrier_Reef"
+  },
+  {
+    "id": 93,
+    "name": "Palau's Jellyfish Lake",
+    "description": "A marine lake located on Eil Malk island in Palau. It is famous for its millions of golden jellyfish which migrate horizontally across the lake daily.",
+    "coordinates": {
+      "latitude": 7.1589,
+      "longitude": 134.2526
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Jellyfish_Lake"
+  },
+  {
+    "id": 94,
+    "name": "Blue Hole, Dahab",
+    "description": "A submarine sinkhole in the Red Sea near the coast of Egypt. It is a popular diving site, known for its clear blue waters and abundant marine life.",
+    "coordinates": {
+      "latitude": 28.4922,
+      "longitude": 34.5149
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Blue_Hole_(Red_Sea)"
+  },
+  {
+    "id": 95,
+    "name": "Yonaguni Monument",
+    "description": "An underwater rock formation off the coast of Yonaguni Island in Japan. Its origins are debated, with some suggesting it may be a natural formation and others proposing it is man-made.",
+    "coordinates": {
+      "latitude": 24.4578,
+      "longitude": 122.9336
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Yonaguni_Monument"
+  },
+  {
+    "id": 96,
+    "name": "Silfra Fissure",
+    "description": "A rift between the North American and Eurasian tectonic plates in Thingvellir National Park in Iceland. It is known for its crystal-clear waters and is a popular diving and snorkeling spot.",
+    "coordinates": {
+      "latitude": 64.2565,
+      "longitude": -21.1234
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Silfra"
+  },
+  {
+    "id": 97,
+    "name": "Galápagos Marine Reserve",
+    "description": "A marine reserve surrounding the Galápagos Islands in Ecuador. It is one of the most biologically diverse marine areas in the world, home to unique species found nowhere else.",
+    "coordinates": {
+      "latitude": -0.8328,
+      "longitude": -91.1344
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Marine_Reserve"
+  },
+  {
+    "id": 98,
+    "name": "Sipadan Island",
+    "description": "An island located off the coast of Sabah, Malaysia. It is renowned for its rich marine biodiversity and is considered one of the top diving destinations in the world.",
+    "coordinates": {
+      "latitude": 4.1226,
+      "longitude": 118.6286
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Sipadan"
+  },
+  {
+    "id": 99,
+    "name": "Raja Ampat",
+    "description": "An archipelago comprising over 1,500 small islands, cays, and shoals in Indonesia. It is known for its stunning marine biodiversity, with many species found only in this region.",
+    "coordinates": {
+      "latitude": -0.5056,
+      "longitude": 130.1491
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Raja_Ampat"
+  },
+  {
+    "id": 100,
+    "name": "The Mesoamerican Barrier Reef System",
+    "description": "The largest reef system in the Western Hemisphere, extending over 1,000 kilometers along the coasts of Mexico, Belize, Guatemala, and Honduras. It is a UNESCO World Heritage Site.",
+    "coordinates": {
+      "latitude": 17.3074,
+      "longitude": -87.5361
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Mesoamerican_Barrier_Reef_System"
+  },
+  {
+    "id": 101,
+    "name": "The Shard",
+    "description": "A 95-story skyscraper in London, United Kingdom. It is the tallest building in the UK and offers panoramic views of the city.",
+    "coordinates": {
+      "latitude": 51.5045,
+      "longitude": -0.0865
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/The_Shard"
+  },
+  {
+    "id": 102,
+    "name": "Marina Bay Sands",
+    "description": "An integrated resort in Singapore, featuring a hotel, casino, shopping mall, and the world's largest rooftop infinity pool.",
+    "coordinates": {
+      "latitude": 1.2834,
+      "longitude": 103.8607
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Marina_Bay_Sands"
+  },
+  {
+    "id": 103,
+    "name": "The Oculus",
+    "description": "A transportation hub and shopping mall in New York City, USA, designed by architect Santiago Calatrava. It is known for its distinctive wing-like architecture.",
+    "coordinates": {
+      "latitude": 40.7127,
+      "longitude": -74.0093
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/World_Trade_Center_station_(PATH)#The_Oculus"
+  },
+  {
+    "id": 104,
+    "name": "The Gherkin",
+    "description": "A distinctive skyscraper in London, United Kingdom, known for its cylindrical shape and glass exterior.",
+    "coordinates": {
+      "latitude": 51.5142,
+      "longitude": -0.0802
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/30_St_Mary_Axe"
+  },
+  {
+    "id": 105,
+    "name": "Burj Khalifa",
+    "description": "The tallest building in the world, located in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall and has 163 floors.",
+    "coordinates": {
+      "latitude": 25.1972,
+      "longitude": 55.2744
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Burj_Khalifa"
+  },
+  {
+    "id": 106,
+    "name": "The High Line",
+    "description": "A linear park built on a historic freight rail line elevated above the streets on Manhattan's West Side in New York City, USA.",
+    "coordinates": {
+      "latitude": 40.7479,
+      "longitude": -74.0048
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/High_Line_(New_York_City)"
+  },
+  {
+    "id": 107,
+    "name": "The Sydney Opera House",
+    "description": "A multi-venue performing arts center in Sydney, Australia, known for its unique sail-like design.",
+    "coordinates": {
+      "latitude": -33.8568,
+      "longitude": 151.2153
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+  },
+  {
+    "id": 108,
+    "name": "The Louvre Pyramid",
+    "description": "A large glass and metal pyramid located in the courtyard of the Louvre Museum in Paris, France.",
+    "coordinates": {
+      "latitude": 48.8606,
+      "longitude": 2.3376
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+  },
+  {
+    "id": 109,
+    "name": "The Walt Disney Concert Hall",
+    "description": "A concert hall in Los Angeles, California, USA, designed by architect Frank Gehry. It is known for its unique curving metallic exterior.",
+    "coordinates": {
+      "latitude": 34.0550,
+      "longitude": -118.2498
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall"
+  },
+  {
+    "id": 110,
+    "name": "The Millau Viaduct",
+    "description": "A cable-stayed bridge spanning the Tarn Valley near Millau in southern France. It is the tallest bridge in the world.",
+    "coordinates": {
+      "latitude": 44.0815,
+      "longitude": 3.0228
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Millau_Viaduct"
+  },
+  {
+    "id": 111,
+    "name": "Lotus Temple",
+    "description": "A Bahá'í House of Worship located in New Delhi, India. It is known for its flower-like shape and serves as a center of worship for people of all religions.",
+    "coordinates": {
+      "latitude": 28.5535,
+      "longitude": 77.2588
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Lotus_Temple"
+  },
+  {
+    "id": 112,
+    "name": "The Atomium",
+    "description": "A building in Brussels, Belgium, originally constructed for the 1958 Brussels World's Fair. It is designed to resemble an iron crystal magnified 165 billion times.",
+    "coordinates": {
+      "latitude": 50.8949,
+      "longitude": 4.3410
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Atomium"
+  },
+  {
+    "id": 113,
+    "name": "The Basket Building",
+    "description": "A building in Newark, Ohio, USA, designed to resemble a giant picnic basket. It serves as the headquarters of the Longaberger Company.",
+    "coordinates": {
+      "latitude": 40.0551,
+      "longitude": -82.4149
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Longaberger_Company"
+  },
+  {
+    "id": 114,
+    "name": "The Guggenheim Museum Bilbao",
+    "description": "A museum of modern and contemporary art in Bilbao, Spain, designed by architect Frank Gehry. It is known for its unique titanium-clad design.",
+    "coordinates": {
+      "latitude": 43.2686,
+      "longitude": -2.9340
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao"
+  },
+  {
+    "id": 115,
+    "name": "The CCTV Headquarters",
+    "description": "A skyscraper in Beijing, China, designed by architect Rem Koolhaas. It is the headquarters of China Central Television (CCTV).",
+    "coordinates": {
+      "latitude": 39.9097,
+      "longitude": 116.4544
+    },
+    "wikipedia_link": "https://en.wikipedia.org/wiki/CCTV_Headquarters"
+  }
+]
