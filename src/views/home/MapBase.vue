@@ -1,27 +1,33 @@
 <template>
   <div id="map-container">
     <div id="map"></div>
-    <div v-if="currentLocation && previousLocation">
-      <button class="btn btn-primary circular-btn" @click="toggleInfo">
-        ?
-      </button>
+    <div v-if="currentLocation">
+      <button class="btn btn-primary circular-btn" @click="handleCheatClick">?</button>
       <div v-if="showInfo" class="info-card">
         <div class="card card-body">
-          <h5>Look for:</h5>
+          <h2>You are looking for the place where:</h2>
           <p>{{ currentLocation.description }}</p>
-          <p>
-            <b>Yesterday's Location: </b> {{ previousLocation.name }} <br />
-            {{ previousLocation.coordinates.latitude }},
-            {{ previousLocation.coordinates.longitude }}
-          </p>
         </div>
       </div>
     </div>
+    <div v-if="previousLocation" class="previous-location">
+      <h3>Yesterday's location:</h3>
+      <p>{{ previousLocation.name }}</p>
+      <p>{{ previousLocation.description }}</p>
+    </div>
+    <button @click="goToCustomLocation" class="btn btn-secondary">Add Custom Location</button>
+    <div v-if="cheatActivated && showCoordinates" class="mouse-coordinates">
+      <p>Latitude: {{ mouseCoordinates.lat.toFixed(6) }}, Longitude: {{ mouseCoordinates.lng.toFixed(6) }}</p>
+    </div>
+    <button v-if="cheatActivated" @click="toggleCoordinates" class="btn btn-secondary coordinates-toggle-btn">
+      {{ showCoordinates ? 'Hide' : 'Show' }} Coordinates
+    </button>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, onMounted, ref } from "vue";
+import { useRouter } from 'vue-router';
 import L from "leaflet";
 import locations from "@/assets/locations.json"; // Import your locations JSON data
 
@@ -36,14 +42,31 @@ interface Location {
 }
 
 export default defineComponent({
-  name: "MapComponent",
+  name: "HomeComponent",
   setup() {
     const currentLocation = ref<Location | null>(null);
     const previousLocation = ref<Location | null>(null);
     const showInfo = ref<boolean>(false);
+    const clickCount = ref<number>(0);
+    const cheatActivated = ref<boolean>(false);
+    const showCoordinates = ref<boolean>(true);
+    const router = useRouter();
+    const mouseCoordinates = ref<L.LatLng | null>(null);
 
-    const toggleInfo = () => {
-      showInfo.value = !showInfo.value;
+    const handleCheatClick = () => {
+      clickCount.value++;
+      if (clickCount.value >= 5) {
+        cheatActivated.value = true;
+      }
+      showInfo.value = !showInfo.value; // Toggle showInfo to show/hide the description card
+    };
+
+    const toggleCoordinates = () => {
+      showCoordinates.value = !showCoordinates.value;
+    };
+
+    const goToCustomLocation = () => {
+      router.push('/custom');
     };
 
     onMounted(() => {
@@ -90,6 +113,10 @@ export default defineComponent({
           circle.setStyle({ fillOpacity: 0.5 });
         }
       });
+
+      map.on("mousemove", (e: L.LeafletMouseEvent) => {
+        mouseCoordinates.value = e.latlng;
+      });
     });
 
     // Function to get the day of the year
@@ -104,7 +131,12 @@ export default defineComponent({
       currentLocation,
       previousLocation,
       showInfo,
-      toggleInfo,
+      handleCheatClick,
+      cheatActivated,
+      toggleCoordinates,
+      showCoordinates,
+      goToCustomLocation,
+      mouseCoordinates,
     };
   },
 });
@@ -145,5 +177,24 @@ export default defineComponent({
 
 .previous-location {
   margin-top: 20px;
+}
+
+.mouse-coordinates {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1000; /* Ensure the coordinates are above the map */
+}
+
+.coordinates-toggle-btn {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Ensure the toggle button is above the map */
 }
 </style>
